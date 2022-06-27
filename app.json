@@ -1,0 +1,194 @@
+{
+    "name": "Devil-Queen",
+    "description": "Powerfull Bot in Whatsapp.",
+    "logo": "https://i.ibb.co/bNbz5zJ/Devil-Queen.jpg",
+    "keywords": ["whatsapp", "userbot", "devil", "queen", "bot", "ai" , "MD" ],
+    "repository": "https://github.com/PrageethPriyamantha/Devil-Queen",
+    "success_url": "https://devil-queen.ga",
+    "stack": "container",
+     "env": {
+            "DQ_SESSION": {
+            "description": "",
+            "required": true
+             },
+            "OWN_NAME": {
+            "description": "",
+            "value": "Prageeth Priyamantha" ,
+            "required": true
+             },
+             "OWN_NUMBER": {
+            "description": "",
+            "value": "94742412318" ,
+            "required": true
+             },
+       
+            "AUTO_REACT": {
+            "description": "",
+            "value": "false" ,
+            "required": true
+             },
+           
+           "URL_1NAME": {
+            "description": "",
+            "value": "whtasapp Grp 1" ,
+            "required": true
+      },
+           "URL_1LINK": {
+            "description": "",
+            "value": "GRP 1 link" ,
+            "required": true
+      },
+     "URL_2NAME": {
+            "description": "",
+            "value": "Youtube channel Link" ,
+            "required": true
+      },
+       "URL_2LINK": {
+            "description": "",
+            "value": "Channel link here" ,
+            "required": true
+      },
+       "FOOTER": {
+            "description": "",
+            "value": "𝙿𝙾𝚆𝙴RED 𝙱𝚈  DEVIL-QUEEN ²⁰²²" ,
+            "required": true
+      },
+     "ANTI_LINK": {
+            "description": "",
+            "value": "false" ,
+            "required": true
+      },
+       "CAPTION": {
+            "description": "",
+            "value": "© 𝙶𝙴𝙽𝙴𝚁𝙰𝚃𝙴𝙳 𝙱𝚈  DEVIL-QUEEN ²⁰²²" ,
+            "required": true
+      },
+       "INBOX_BLOCK": {
+            "description": "",
+            "value": "false" ,
+            "required": true
+      },
+       "INBOX_BLOCK_MSG": {
+            "description": "",
+            "value": "default" ,
+            "required": true
+      },
+      "ALIVE_MESSAGE": {
+            "description": "",
+            "value": "default", 
+            "required": true
+      },
+      "ALIVE_LOGO": {
+            "description": "",
+            "value": "https://i.ibb.co/bNbz5zJ/Devil-Queen.jpg" ,
+            "required": true
+      },
+      "DEPLOYER": {
+            "description": "",
+            "value": "USER NAME" ,
+            "required": true
+      },
+       "SONG_DOWN": {
+            "description": "",
+            "value": "*Downloading your song...*" ,
+            "required": true
+      }, 
+        "SONG_UP": {
+            "description": "",
+            "value": "*Uploading your song...*" ,
+            "required": true
+      },
+          "VIDEO_DOWN": {
+            "description": "",
+            "value": "*Downloading your video...*" ,
+            "required": true
+      },
+          "VIDEO_UP": {
+            "description": "",
+            "value": "*Uploading your video...*" ,
+            "required": true
+      },
+          "FILE_DOWN": {
+            "description": "",
+            "value": "*Downloading your file...*" ,
+            "required": true
+      },
+          "FILE_UP": {
+            "description": "",
+            "value": "*Uploading your file...*" ,
+            "required": true
+      },
+          "STIC_WM": {
+            "description": "",
+            "value": "MAKING BY DEVIL" ,
+            "required": true
+      },
+          "WORK_TYPE": {
+            "description": "",
+            "value": "public" ,
+            "required": true
+      },
+         "SUDO": {
+            "description": "",
+            "value": "" ,
+            "required": false
+      },
+         "LANGUAGE": {
+            "description": "",
+            "value": "EN" ,
+            "required": true
+      },
+         "HEROKU": {
+            "description": "",
+            "value": "true" ,
+            "required": true
+      },
+         "HEROKU_API_KEY": {
+            "description": "",
+            "value": "" ,
+            "required": true
+      },
+         "HEROKU_APP_NAME": {
+            "description": "",
+            "value": "" ,
+            "required": true
+      },
+         "BAN_MESSAGE": {
+            "description": "",
+            "value": "default" ,
+            "required": true
+      },
+         "ADD_MESSAGE": {
+            "description": "",
+            "value": "default" ,
+            "required": true
+      },
+        "PROMOTE_MESSAGE": {
+            "description": "",
+            "value": "default" ,
+            "required": true
+      },
+         "DEMOTE_MESSAGE": {
+            "description": "",
+            "value": "default" ,
+            "required": true
+      },
+         "MUTE_MESSAGE": {
+            "description": "",
+            "value": "default" ,
+            "required": true
+      },
+         "UNMUTE_MESSAGE": {
+            "description": "",
+            "value": "default" ,
+            "required": true
+      }
+        
+     },
+    "addons": [{
+      "plan": "heroku-postgresql"
+    }],
+    "buildpacks": [{
+      "url": "heroku-community/apt"
+      }]
+  }
