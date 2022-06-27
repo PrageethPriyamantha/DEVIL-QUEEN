@@ -1,2 +1,0 @@
-# DEVIL-QUEEN
-WA-BOT
