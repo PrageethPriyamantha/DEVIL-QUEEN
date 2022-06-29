@@ -1,22 +1,22 @@
 {
-  "name": "Aquabot-MD",
+  "name": "Devil-Queen",
   "version": "1.0.0",
-  "description": "aquabot happy for whatsapp.",
+  "description": "devilqueen is powerfull bot in whatsapp.",
   "main": "/aquabot/bot.js",
   "scripts": {
     "start": "supervisor -s bot.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sanuwaofficial/AQUABOT-MD.git"
+    "url": "git+https://github.com/PrageethPriyamantha/DEVIL-QUEEN.git"
   },
-  "author": "sanuwa official",
-  "developer": "sanuwa",
+  "author": "PrageethPriyamantha",
+  "developer": "Pragiya",
   "license": "GPL-3.0-or-later",
   "bugs": {
     "url": "https://github.com/sanuwaofficial/AQUABOT-MD/issues"
   },
-  "homepage": "https://github.com/sanuwaofficial/AQUABOT-MD",
+  "homepage": "https://github.com/PrageethPriyamantha/DEVIL-QUEEN",
   "dependencies": {
    
     "@adiwajshing/baileys": "^4.1.0",
