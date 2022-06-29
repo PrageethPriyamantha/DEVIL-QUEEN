@@ -1,9 +1,9 @@
-FROM aquabotwa/sanuwa-official:beta 
+FROM ravindu01manoj/sewqueen:fullcontrol
 
-RUN git clone https://github.com/sanuwaofficial/AQUABOT-MD /root/aquabot
-WORKDIR /root/aquabot/
-ENV TZ=Europe/Istanbul
-RUN yarn add supervisor -g
+RUN git clone https://github.com/ravindu01manoj/Sew-Queen /root/QueenSewWhatsappBot
+WORKDIR /root/QueenSewWhatsappBot/
+ENV TZ=Asia/Colombo
+RUN npm install supervisor -g
 RUN yarn install --no-audit
 
-CMD ["node", "bot.js"]
+CMD ["node", "sew.js"]
